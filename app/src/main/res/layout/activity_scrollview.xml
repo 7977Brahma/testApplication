@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ScrollViewSize">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="RedundantNamespace,UselessParent">
+
+            <LinearLayout
+                android:id="@+id/lin_l1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"
+                    tools:ignore="DuplicateIds" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l2"
+                android:layout_below="@id/lin_l1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l3"
+                android:layout_below="@id/lin_l2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l4"
+                android:layout_below="@id/lin_l3"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l5"
+                android:layout_below="@id/lin_l4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l6"
+                android:layout_below="@id/lin_l5"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l7"
+                android:layout_below="@id/lin_l6"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_l8"
+                android:layout_below="@id/lin_l7"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <ImageView
+                    android:id="@+id/img_profile"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/pro"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="40dp"
+                    android:layout_toRightOf="@id/img_profile">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="24sp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:text="OM Prasad Sahu"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:text="omprasad330@gmail.com"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:textStyle="normal"
+                        android:text="9668387802"/>
+
+                </LinearLayout>
+
+                <!--        <Button-->
+                <!--            android:id="@+id/btn_MoreInfo"-->
+                <!--            android:layout_width="370dp"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:layout_centerHorizontal="true"-->
+                <!--            android:text="MORE INFORMATION"-->
+                <!--            android:layout_marginTop="40dp"-->
+                <!--            android:textSize="20sp"-->
+                <!--            android:textStyle="bold"-->
+                <!--            android:textColor="@color/white"-->
+                <!--            android:background="#007ADC"-->
+                <!--            android:layout_below="@+id/img_profile"-->
+                <!--            tools:ignore="HardcodedText" />-->
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

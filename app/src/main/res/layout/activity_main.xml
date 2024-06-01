@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Hello World!"
+        android:textColor="@color/purple_200"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hey"
+        android:textColor="#1F8888"
+        android:textSize="42sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_gravity="center"
+        android:src="@drawable/pro" />
+
+    <Button
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Hey there"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:hint="Enter ur text"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

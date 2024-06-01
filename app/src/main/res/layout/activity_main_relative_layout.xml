@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/T1_Header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Hello World!"
+        android:textColor="@color/purple_200"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/T2_SubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Image"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="7dp"
+        android:text="Hey"
+        android:textColor="#1F8888"
+        android:textSize="42sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/Image"
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_gravity="center"
+        android:contentDescription="TODO"
+        android:src="@drawable/pro"
+        tools:ignore="ContentDescription,HardcodedText"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/Btn"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Hey there"
+        android:textSize="18sp"
+        android:background="#F19ACA"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/E_Name"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Image"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter ur text"
+        android:layout_centerHorizontal="true"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+
+</RelativeLayout>
