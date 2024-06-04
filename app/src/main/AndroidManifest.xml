@@ -13,22 +13,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JellyfishApplication"
         tools:targetApi="31">
+
         <activity
             android:name=".NewActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/new_app_name"
+            android:theme="@style/Theme.JellyfishApplication"
+            tools:ignore="RedundantLabel">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
         <activity
             android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/new_app_name"
             android:theme="@style/Theme.JellyfishApplication"
             tools:ignore="RedundantLabel">
+
         </activity>
+
     </application>
 </manifest>
